@@ -1,5 +1,6 @@
-/// @desc Init
-hspd = 0; vspd = 0
+// Inherit the parent event
+event_inherited();
+
 direction = 90;
 
 Stat = {
