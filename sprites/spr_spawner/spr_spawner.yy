@@ -25,8 +25,8 @@
   "nineSlice":null,
   "origin":4,
   "parent":{
-    "name":"Bullets",
-    "path":"folders/Entites/Bullets.yy",
+    "name":"Spawners",
+    "path":"folders/Spawners.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

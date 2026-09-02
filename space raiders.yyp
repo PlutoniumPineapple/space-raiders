@@ -200,6 +200,7 @@
     {"id":{"name":"clamp_loop","path":"scripts/clamp_loop/clamp_loop.yy",},},
     {"id":{"name":"collision_line_point","path":"scripts/collision_line_point/collision_line_point.yy",},},
     {"id":{"name":"create_bullet","path":"scripts/create_bullet/create_bullet.yy",},},
+    {"id":{"name":"create_spawner","path":"scripts/create_spawner/create_spawner.yy",},},
     {"id":{"name":"doubleclick_create","path":"scripts/doubleclick_create/doubleclick_create.yy",},},
     {"id":{"name":"doubleclick_step","path":"scripts/doubleclick_step/doubleclick_step.yy",},},
     {"id":{"name":"doublepress_create","path":"scripts/doublepress_create/doublepress_create.yy",},},

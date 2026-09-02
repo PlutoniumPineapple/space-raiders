@@ -16,4 +16,5 @@ function stop() {
 	is_firing = false;
 	_time_rate = 0;
 	_time_dur = 0; 
+	instance_destroy()
 }
