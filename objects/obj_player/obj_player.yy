@@ -38,8 +38,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_ship_beta",
-    "path":"sprites/spr_ship_beta/spr_ship_beta.yy",
+    "name":"ship_prototype1",
+    "path":"sprites/ship_prototype1/ship_prototype1.yy",
   },
   "spriteMaskId":null,
   "visible":true,

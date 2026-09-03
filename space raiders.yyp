@@ -443,6 +443,7 @@
     {"id":{"name":"Tween_Sine","path":"scripts/Tween_Sine/Tween_Sine.yy",},},
     {"id":{"name":"Tween_Smooth","path":"scripts/Tween_Smooth/Tween_Smooth.yy",},},
     {"id":{"name":"Tween_Weighted","path":"scripts/Tween_Weighted/Tween_Weighted.yy",},},
+    {"id":{"name":"ship_prototype1","path":"sprites/ship_prototype1/ship_prototype1.yy",},},
     {"id":{"name":"spr_ailen_beta","path":"sprites/spr_ailen_beta/spr_ailen_beta.yy",},},
     {"id":{"name":"spr_bullet_beta","path":"sprites/spr_bullet_beta/spr_bullet_beta.yy",},},
     {"id":{"name":"spr_bullet_bomb","path":"sprites/spr_bullet_bomb/spr_bullet_bomb.yy",},},
