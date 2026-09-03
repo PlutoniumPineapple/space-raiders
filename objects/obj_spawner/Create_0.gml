@@ -4,13 +4,6 @@ _time_dur = fire_duration;
 
 is_firing = true;
 
-/// @desc Activates the spawner
-function fire() {
-	is_firing = true;
-	_time_rate = fire_rate;
-	_time_dur = fire_duration; 
-}
-
 /// @desc Turns off the spawner
 function stop() {
 	is_firing = false;
@@ -29,6 +22,3 @@ function __spacing_angle(n = volley_amount, theta = spread) {
 	return theta/n;
 }
 
-function use_template(params) {
-	
-}

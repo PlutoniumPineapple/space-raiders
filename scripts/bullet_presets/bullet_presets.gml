@@ -14,8 +14,10 @@ function player_bullet() {
 	return spawner;
 }
 
-function basic() {
-	spawner = create_spawner(self, 0.01, 0.01, 20, obj_player_bullet)
-	spawner.bullet_speed = 10
+function basic(time=10) {
+	spawner = create_spawner(self, time, time, 100, obj_bullet_default)
+	spawner.spread = 60;
+	spawner.volley_amount = 3;
+	spawner.bullet_speed = 8
 	return spawner;
 }

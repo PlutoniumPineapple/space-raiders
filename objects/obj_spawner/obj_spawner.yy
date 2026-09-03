@@ -34,9 +34,9 @@
     {"$GMObjectProperty":"v2","%Name":"owner","filters":[
         "GMObject",
       ],"listItems":[],"multiselect":false,"name":"owner","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"self","varType":5,},
-    {"$GMObjectProperty":"v2","%Name":"spread","filters":[],"listItems":[],"multiselect":false,"name":"spread","rangeEnabled":true,"rangeMax":360.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"103","varType":0,},
-    {"$GMObjectProperty":"v2","%Name":"volley_amount","filters":[],"listItems":[],"multiselect":false,"name":"volley_amount","rangeEnabled":true,"rangeMax":255.0,"rangeMin":1.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"75","varType":1,},
-    {"$GMObjectProperty":"v2","%Name":"rotation","filters":[],"listItems":[],"multiselect":false,"name":"rotation","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"15","varType":0,},
+    {"$GMObjectProperty":"v2","%Name":"spread","filters":[],"listItems":[],"multiselect":false,"name":"spread","rangeEnabled":true,"rangeMax":360.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"34.7","varType":0,},
+    {"$GMObjectProperty":"v2","%Name":"volley_amount","filters":[],"listItems":[],"multiselect":false,"name":"volley_amount","rangeEnabled":true,"rangeMax":255.0,"rangeMin":1.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"20","varType":1,},
+    {"$GMObjectProperty":"v2","%Name":"rotation","filters":[],"listItems":[],"multiselect":false,"name":"rotation","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0","varType":0,},
     {"$GMObjectProperty":"v2","%Name":"bullet_speed","filters":[],"listItems":[],"multiselect":false,"name":"bullet_speed","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"2","varType":0,},
     {"$GMObjectProperty":"v2","%Name":"bullet_lifetime","filters":[],"listItems":[],"multiselect":false,"name":"bullet_lifetime","rangeEnabled":true,"rangeMax":255.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"32.7","varType":0,},
     {"$GMObjectProperty":"v2","%Name":"bullet_type","filters":[
