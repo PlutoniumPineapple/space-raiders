@@ -452,6 +452,7 @@
     {"id":{"name":"spr_ship_beta","path":"sprites/spr_ship_beta/spr_ship_beta.yy",},},
     {"id":{"name":"spr_spawner","path":"sprites/spr_spawner/spr_spawner.yy",},},
     {"id":{"name":"spr_tachyon","path":"sprites/spr_tachyon/spr_tachyon.yy",},},
+    {"id":{"name":"star_bg","path":"sprites/star_bg/star_bg.yy",},},
   ],
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
