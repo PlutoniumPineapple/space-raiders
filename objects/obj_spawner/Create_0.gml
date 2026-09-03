@@ -19,6 +19,6 @@ function update_timers() {
 
 /// @desc The degrees to space out each bullets
 function __spacing_angle(n = volley_amount, theta = spread) {
-	return theta/n;
+	return theta/n-1;
 }
 

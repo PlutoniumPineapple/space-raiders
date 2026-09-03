@@ -14,6 +14,7 @@ function __InputConfigVerbs()
         ACCEPT,
         CANCEL,
 		PAUSE,
+		FULLSCREEN,
 		
 		// Combat
         SHOOT,
@@ -35,6 +36,8 @@ function __InputConfigVerbs()
 	
 	InputDefineVerb(INPUT_VERB.SHOOT, "shoot", mb_left, gp_face3);
 	InputDefineVerb(INPUT_VERB.GAMMA_ATTACK, "gamma attack", mb_middle, gp_face2);
+	
+	InputDefineVerb(INPUT_VERB.FULLSCREEN, "fullscreen", vk_f11, undefined);
     
     
     //Define a cluster of verbs for moving around
