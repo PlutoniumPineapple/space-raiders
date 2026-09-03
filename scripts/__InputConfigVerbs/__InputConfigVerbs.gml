@@ -17,6 +17,7 @@ function __InputConfigVerbs()
 		
 		// Combat
         SHOOT,
+		GAMMA_ATTACK,
        
     }
     
@@ -31,7 +32,9 @@ function __InputConfigVerbs()
 	InputDefineVerb(INPUT_VERB.DOWN, "down", [vk_down,"S"], [gp_axislv,gp_padd]);
 	InputDefineVerb(INPUT_VERB.LEFT, "left", [vk_left,"A"], [-gp_axislh,gp_padl]);
 	InputDefineVerb(INPUT_VERB.RIGHT, "right", [vk_right,"D"], [gp_axislh,gp_padr]);
+	
 	InputDefineVerb(INPUT_VERB.SHOOT, "shoot", mb_left, gp_face3);
+	InputDefineVerb(INPUT_VERB.GAMMA_ATTACK, "gamma attack", mb_middle, gp_face2);
     
     
     //Define a cluster of verbs for moving around

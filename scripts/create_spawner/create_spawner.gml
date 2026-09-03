@@ -10,7 +10,10 @@ _volley_amount = 1,
 
 ){
 	spawner = instance_create_depth(_owner.x, _owner.y, _owner.depth-1, obj_spawner, {
-		owner : _owner,
+		
+		direction : _owner.direction,
+		
+		owner : _owner.id,
 		fire_rate : _fire_rate,
 		fire_duration : _fire_duration,
 		bullet_lifetime : _bullet_lifetime,

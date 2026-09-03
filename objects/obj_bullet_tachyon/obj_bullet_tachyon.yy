@@ -34,8 +34,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"bullet_beta",
-    "path":"sprites/bullet_beta/bullet_beta.yy",
+    "name":"spr_bullet_beta",
+    "path":"sprites/spr_bullet_beta/spr_bullet_beta.yy",
   },
   "spriteMaskId":null,
   "visible":true,

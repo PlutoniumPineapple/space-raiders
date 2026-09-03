@@ -6,6 +6,10 @@ hspd = Stat.movespeed*InputX(INPUT_CLUSTER.NAVIGATION);
 vspd = Stat.movespeed*InputY(INPUT_CLUSTER.NAVIGATION);
 
 if InputPressed(INPUT_VERB.SHOOT) or InputRepeat(INPUT_VERB.SHOOT){
-	create_bullet(direction, 10, 10)
+	spawner = create_spawner(self, 0.01, 0.01, 20)
+	spawner.bullet_speed = 10
 }
 
+if InputPressed(INPUT_VERB.GAMMA_ATTACK) {
+	spawner = create_spawner(self, 0.1, 5, 20)
+}

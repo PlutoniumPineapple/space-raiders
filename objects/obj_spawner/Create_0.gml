@@ -28,3 +28,7 @@ function update_timers() {
 function __spacing_angle(n = volley_amount, theta = spread) {
 	return theta/n;
 }
+
+function use_template(params) {
+	
+}

@@ -1,1 +1,1 @@
-show_debug_message("Spawner " + string(id) + " removed")
+//show_debug_message("Spawner " + string(id) + " removed")

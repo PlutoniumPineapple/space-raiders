@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"BulletParams",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"BulletParams",
+  "parent":{
+    "name":"ASSET_Scripts",
+    "path":"folders/Scripts/ASSET_Scripts.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}
