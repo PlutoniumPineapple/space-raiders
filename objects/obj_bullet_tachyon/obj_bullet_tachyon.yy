@@ -8,7 +8,7 @@
   "managed":true,
   "name":"obj_bullet_tachyon",
   "overriddenProperties":[
-    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_bullet_default","path":"objects/obj_bullet_default/obj_bullet_default.yy",},"propertyId":{"name":"max_speed","path":"objects/obj_bullet_default/obj_bullet_default.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"10",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_bullet_default","path":"objects/obj_bullet_default/obj_bullet_default.yy",},"propertyId":{"name":"max_speed","path":"objects/obj_bullet_default/obj_bullet_default.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"9",},
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_bullet_default","path":"objects/obj_bullet_default/obj_bullet_default.yy",},"propertyId":{"name":"acceleration","path":"objects/obj_bullet_default/obj_bullet_default.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"0.5",},
   ],
   "parent":{

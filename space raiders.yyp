@@ -85,6 +85,7 @@
   "name":"space raiders",
   "resources":[
     {"id":{"name":"__InputUpdateController","path":"objects/__InputUpdateController/__InputUpdateController.yy",},},
+    {"id":{"name":"FiringBarrels","path":"objects/FiringBarrels/FiringBarrels.yy",},},
     {"id":{"name":"obj_ailen","path":"objects/obj_ailen/obj_ailen.yy",},},
     {"id":{"name":"obj_bigboi_bullet","path":"objects/obj_bigboi_bullet/obj_bigboi_bullet.yy",},},
     {"id":{"name":"obj_bullet_bomb","path":"objects/obj_bullet_bomb/obj_bullet_bomb.yy",},},
