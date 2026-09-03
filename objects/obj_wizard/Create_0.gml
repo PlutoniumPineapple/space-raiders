@@ -13,8 +13,6 @@ function random_attack() {
 	}
 	else if num > 30 and num <= 60 {
 	    s = tachyon()
-		s.volley_amount = 10
-		s.spread = 180
 	}
 	else if num > 60 {
 	    s = basic(time)
