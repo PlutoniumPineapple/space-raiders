@@ -30,7 +30,6 @@
   "properties":[
     {"$GMObjectProperty":"v2","%Name":"hp","filters":[],"listItems":[],"multiselect":false,"name":"hp","rangeEnabled":false,"rangeMax":10.0,"rangeMin":1.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"1","varFriendlyName":"Health","varType":1,},
     {"$GMObjectProperty":"v2","%Name":"iframe_dur","filters":[],"listItems":[],"multiselect":false,"name":"iframe_dur","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0.5","varType":0,},
-    {"$GMObjectProperty":"v2","%Name":"entity_type","filters":[],"listItems":[],"multiselect":false,"name":"entity_type","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"OWNER_TYPE.ENEMY","varType":4,},
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
