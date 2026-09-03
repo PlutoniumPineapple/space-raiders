@@ -32,7 +32,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"spr_big_bullet",
+    "path":"sprites/spr_big_bullet/spr_big_bullet.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }
