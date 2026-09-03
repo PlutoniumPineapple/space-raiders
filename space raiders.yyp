@@ -85,7 +85,6 @@
   "name":"space raiders",
   "resources":[
     {"id":{"name":"__InputUpdateController","path":"objects/__InputUpdateController/__InputUpdateController.yy",},},
-    {"id":{"name":"FiringBarrels","path":"objects/FiringBarrels/FiringBarrels.yy",},},
     {"id":{"name":"obj_ailen","path":"objects/obj_ailen/obj_ailen.yy",},},
     {"id":{"name":"obj_bigboi_bullet","path":"objects/obj_bigboi_bullet/obj_bigboi_bullet.yy",},},
     {"id":{"name":"obj_bullet_bomb","path":"objects/obj_bullet_bomb/obj_bullet_bomb.yy",},},
@@ -96,6 +95,7 @@
     {"id":{"name":"obj_player_bullet","path":"objects/obj_player_bullet/obj_player_bullet.yy",},},
     {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},},
     {"id":{"name":"obj_spawner","path":"objects/obj_spawner/obj_spawner.yy",},},
+    {"id":{"name":"obj_star","path":"objects/obj_star/obj_star.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
     {"id":{"name":"__InputBindingIsThumbstick","path":"scripts/__InputBindingIsThumbstick/__InputBindingIsThumbstick.yy",},},
     {"id":{"name":"__InputBindingScan","path":"scripts/__InputBindingScan/__InputBindingScan.yy",},},

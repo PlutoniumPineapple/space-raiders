@@ -1,15 +1,15 @@
 {
   "$GMObject":"",
-  "%Name":"FiringBarrels",
+  "%Name":"obj_star",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"FiringBarrels",
+  "name":"obj_star",
   "overriddenProperties":[],
   "parent":{
-    "name":"Player",
-    "path":"folders/Entites/Player.yy",
+    "name":"Entites",
+    "path":"folders/Entites.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -30,8 +30,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_ship_beta",
-    "path":"sprites/spr_ship_beta/spr_ship_beta.yy",
+    "name":"star_bg",
+    "path":"sprites/star_bg/star_bg.yy",
   },
   "spriteMaskId":null,
   "visible":true,

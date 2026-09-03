@@ -13,3 +13,9 @@ function player_bullet() {
 	spawner.bullet_speed = 10
 	return spawner;
 }
+
+function basic() {
+	spawner = create_spawner(self, 0.01, 0.01, 20, obj_player_bullet)
+	spawner.bullet_speed = 10
+	return spawner;
+}
