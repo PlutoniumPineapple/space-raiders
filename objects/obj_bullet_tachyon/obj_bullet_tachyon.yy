@@ -1,12 +1,15 @@
 {
   "$GMObject":"",
   "%Name":"obj_bullet_tachyon",
-  "eventList":[],
+  "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
   "name":"obj_bullet_tachyon",
   "overriddenProperties":[
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_bullet_default","path":"objects/obj_bullet_default/obj_bullet_default.yy",},"propertyId":{"name":"max_speed","path":"objects/obj_bullet_default/obj_bullet_default.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"10",},
-    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_bullet_default","path":"objects/obj_bullet_default/obj_bullet_default.yy",},"propertyId":{"name":"acceleration","path":"objects/obj_bullet_default/obj_bullet_default.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"0.1",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_bullet_default","path":"objects/obj_bullet_default/obj_bullet_default.yy",},"propertyId":{"name":"acceleration","path":"objects/obj_bullet_default/obj_bullet_default.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"0.25",},
   ],
   "parent":{
     "name":"Bullets",
@@ -34,8 +37,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_bullet_beta",
-    "path":"sprites/spr_bullet_beta/spr_bullet_beta.yy",
+    "name":"spr_tachyon",
+    "path":"sprites/spr_tachyon/spr_tachyon.yy",
   },
   "spriteMaskId":null,
   "visible":true,

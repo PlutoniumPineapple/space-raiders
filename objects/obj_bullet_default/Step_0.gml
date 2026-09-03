@@ -1,6 +1,6 @@
 lifetime -= dt_seconds();
 if lifetime <= 0 {
-	instance_destroy();
+	instance_destroy()
 }
 
 if acceleration > 0 {

@@ -26,8 +26,8 @@
   "nineSlice":null,
   "origin":4,
   "parent":{
-    "name":"Bullets",
-    "path":"folders/Entites/Bullets.yy",
+    "name":"Sprite",
+    "path":"folders/Entites/Bullets/Sprite.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",
