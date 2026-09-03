@@ -20,16 +20,16 @@ spawner2.x=self.x + offset
 }
 
 
-if InputPressed(INPUT_VERB.SHOOT){
-	spawner1 = create_spawner(self, 0.01, 0.01, 20, obj_player_bullet)
-	spawner1.bullet_speed = 10
-	spawner1.x = x + lengthdir_x(offset, direction+dir)
-	spawner1.y = y + lengthdir_y(offset, direction+dir)
+//if InputPressed(INPUT_VERB.SHOOT){
+//	spawner1 = create_spawner(self, 0.01, 0.01, 20, obj_player_bullet)
+//	spawner1.bullet_speed = 10
+//	spawner1.x = x + lengthdir_x(offset, direction+dir)
+//	spawner1.y = y + lengthdir_y(offset, direction+dir)
 	
-	spawner2 = create_spawner(self, 0.01, 0.01, 20, obj_player_bullet)
-	spawner2.bullet_speed = 10
-	spawner2.x = x + lengthdir_x(-offset, direction + dir +110)
-	spawner2.y = y + lengthdir_y(-offset, direction + dir +110)
+//	spawner2 = create_spawner(self, 0.01, 0.01, 20, obj_player_bullet)
+//	spawner2.bullet_speed = 10
+//	spawner2.x = x + lengthdir_x(-offset, direction + dir +110)
+//	spawner2.y = y + lengthdir_y(-offset, direction + dir +110)
 	
 	
-}
+//}

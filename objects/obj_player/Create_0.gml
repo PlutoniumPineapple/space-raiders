@@ -2,6 +2,8 @@
 event_inherited();
 
 direction = 90;
+offset = 20;
+angle = 90;
 
 Stat = {
 	movespeed : 5

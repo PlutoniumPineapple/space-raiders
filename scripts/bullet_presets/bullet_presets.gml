@@ -1,8 +1,15 @@
 function tachyon(dir = direction) {
-	create_spawner(self, 0.5, 0.5, 100, obj_bullet_tachyon)
+	return create_spawner(self, 0.5, 0.5, 100, obj_bullet_tachyon)
 }
 
 function bomb(dir = direction) {
 	spawn = create_spawner(self, 0.1, 0.1, 1, obj_bullet_bomb)
 	spawn.bullet_speed = 5
+	return spawn
+}
+
+function player_bullet() {
+	spawner = create_spawner(self, 0.01, 0.01, 20, obj_player_bullet)
+	spawner.bullet_speed = 10
+	return spawner;
 }
