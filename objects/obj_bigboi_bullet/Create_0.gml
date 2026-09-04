@@ -1,0 +1,1 @@
+new_size = image_xscale
