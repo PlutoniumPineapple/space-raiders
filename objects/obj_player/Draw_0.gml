@@ -1,4 +1,5 @@
 draw_self();
+draw_set_colour(c_yellow)
 draw_circle(
 	(bbox_left+bbox_right)/2, 
 	(bbox_top+bbox_bottom)/2, 

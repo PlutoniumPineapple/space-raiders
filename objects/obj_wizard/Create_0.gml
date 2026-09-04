@@ -15,7 +15,7 @@ function random_attack() {
 		s.spread = 90
 		s.volley_amount = 3
 	}
-	else if num > 30 and num <= 60 {
+	else if (num > 30 and num <= 60) and time = phase_2_time {
 	    s = tachyon()
 	}
 	else if num > 60 and num < 90 {
