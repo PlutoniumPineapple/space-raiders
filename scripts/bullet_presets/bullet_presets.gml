@@ -21,3 +21,11 @@ function basic(time=10) {
 	spawner.bullet_speed = 8
 	return spawner;
 }
+function bigboi(time=10) {
+	//yo, I dont know how to set up a bullet
+	spawner = create_spawner(self, time, time, 100, obj_bigboi_bullet)
+	spawner.spread = 60;
+	spawner.volley_amount = 3;
+	spawner.bullet_speed = 8
+	return spawner;
+}
