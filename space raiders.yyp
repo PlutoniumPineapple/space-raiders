@@ -449,6 +449,8 @@
     {"id":{"name":"Tween_Sine","path":"scripts/Tween_Sine/Tween_Sine.yy",},},
     {"id":{"name":"Tween_Smooth","path":"scripts/Tween_Smooth/Tween_Smooth.yy",},},
     {"id":{"name":"Tween_Weighted","path":"scripts/Tween_Weighted/Tween_Weighted.yy",},},
+    {"id":{"name":"snd_battle","path":"sounds/snd_battle/snd_battle.yy",},},
+    {"id":{"name":"snd_shoot","path":"sounds/snd_shoot/snd_shoot.yy",},},
     {"id":{"name":"Mage1ANI_jump3","path":"sprites/Mage1ANI_jump3/Mage1ANI_jump3.yy",},},
     {"id":{"name":"ship_prototype1","path":"sprites/ship_prototype1/ship_prototype1.yy",},},
     {"id":{"name":"ship_shield","path":"sprites/ship_shield/ship_shield.yy",},},

@@ -4,6 +4,7 @@ function tachyon(dir = direction) {
 
 function bomb(dir = direction) {
 	spawn = create_spawner(self, 0.1, 0.1, 1, obj_bullet_bomb)
+	spawn.follow_owner = false;
 	spawn.bullet_speed = 5
 	return spawn
 }

@@ -6,6 +6,11 @@ if is_firing {
 	update_timers();
 	
 	if _time_rate <= 0 {
+		if follow_owner and instance_exists(owner) {
+			x = owner.x;
+			y = owner.y;
+		}
+		
 		// Spawn a bullet
 		if volley_amount = 1 {
 			create_bullet(direction, bullet_speed, bullet_lifetime, bullet_type, owner);
