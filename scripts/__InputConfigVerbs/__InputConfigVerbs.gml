@@ -19,7 +19,13 @@ function __InputConfigVerbs()
 		// Combat
         SHOOT,
 		GAMMA_ATTACK,
-       
+		
+		
+		AIM_NORTH,
+		AIM_SOUTH,
+		AIM_EAST,
+		AIM_WEST,
+		
     }
     
     enum INPUT_CLUSTER
@@ -27,17 +33,27 @@ function __InputConfigVerbs()
         //Add your own clusters here!
         //Clusters are used for two-dimensional checkers (InputDirection() etc.)
         NAVIGATION,
+		AIM,
     }
     
+	// Movement Defs
 	InputDefineVerb(INPUT_VERB.UP, "up", [vk_up,"W"], [-gp_axislv,gp_padu]);
 	InputDefineVerb(INPUT_VERB.DOWN, "down", [vk_down,"S"], [gp_axislv,gp_padd]);
 	InputDefineVerb(INPUT_VERB.LEFT, "left", [vk_left,"A"], [-gp_axislh,gp_padl]);
 	InputDefineVerb(INPUT_VERB.RIGHT, "right", [vk_right,"D"], [gp_axislh,gp_padr]);
 	
-	InputDefineVerb(INPUT_VERB.SHOOT, "shoot", mb_left, gp_face3);
-	InputDefineVerb(INPUT_VERB.GAMMA_ATTACK, "gamma attack", mb_middle, gp_face2);
+	// Attack Defs
+	InputDefineVerb(INPUT_VERB.SHOOT, "shoot", mb_left, gp_shoulderr);
+	InputDefineVerb(INPUT_VERB.GAMMA_ATTACK, "gamma attack", mb_middle, gp_shoulderrb);
 	
+	// Menu Defs
 	InputDefineVerb(INPUT_VERB.FULLSCREEN, "fullscreen", vk_f11, undefined);
+	
+	// Aimming Defs
+	InputDefineVerb(INPUT_VERB.AIM_NORTH,	"aim north",	undefined, [-gp_axisrv]);
+	InputDefineVerb(INPUT_VERB.AIM_SOUTH,	"aim south",	undefined, [gp_axisrv]);
+	InputDefineVerb(INPUT_VERB.AIM_WEST,	"aim west",		undefined, [-gp_axisrh]);
+	InputDefineVerb(INPUT_VERB.AIM_EAST,	"aim east",		undefined, [gp_axisrh]);
     
     
     //Define a cluster of verbs for moving around
@@ -47,4 +63,13 @@ function __InputConfigVerbs()
 		INPUT_VERB.DOWN, 
 		INPUT_VERB.LEFT
 	);
+	
+	InputDefineCluster(INPUT_CLUSTER.AIM, 
+		INPUT_VERB.AIM_NORTH,
+		INPUT_VERB.AIM_EAST,	
+		INPUT_VERB.AIM_SOUTH,	
+		INPUT_VERB.AIM_WEST,	
+	);
+	
+	
 }

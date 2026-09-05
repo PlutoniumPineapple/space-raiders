@@ -1,6 +1,9 @@
 /// @desc Update
 image_angle = direction
-direction = point_direction(x, y, mouse_x, mouse_y) //InputDirection(image_angle, INPUT_CLUSTER.NAVIGATION)
+direction = aim_direction()
+
+
+
 
 hspd = Stat.movespeed*InputX(INPUT_CLUSTER.NAVIGATION);
 vspd = Stat.movespeed*InputY(INPUT_CLUSTER.NAVIGATION);
