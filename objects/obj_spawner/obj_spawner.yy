@@ -45,6 +45,7 @@
     {"$GMObjectProperty":"v2","%Name":"bullet_max_spd","filters":[],"listItems":[],"multiselect":false,"name":"bullet_max_spd","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"10","varType":4,},
     {"$GMObjectProperty":"v2","%Name":"bullet_accel","filters":[],"listItems":[],"multiselect":false,"name":"bullet_accel","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0.0","varType":0,},
     {"$GMObjectProperty":"v2","%Name":"follow_owner","filters":[],"listItems":[],"multiselect":false,"name":"follow_owner","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"True","varType":3,},
+    {"$GMObjectProperty":"v2","%Name":"bullet_rotation","filters":[],"listItems":[],"multiselect":false,"name":"bullet_rotation","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0.0","varType":0,},
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",

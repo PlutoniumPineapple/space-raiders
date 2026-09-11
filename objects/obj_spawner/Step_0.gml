@@ -22,7 +22,8 @@ if is_firing {
 				var step_angle = __spacing_angle()*i // The angle to direct the bullet
 				var current_angle = (direction - spread/2) + step_angle;
 
-				create_bullet(current_angle, bullet_speed, bullet_lifetime, bullet_type, owner);
+				var bullet = create_bullet(current_angle, bullet_speed, bullet_lifetime, bullet_type, owner);
+				bullet.rotation = bullet_rotation;
 			}
 		}
 		

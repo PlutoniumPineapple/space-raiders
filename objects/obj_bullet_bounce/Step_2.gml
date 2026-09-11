@@ -1,0 +1,1 @@
+if bounce_amount > bounce_limit {instance_destroy();}
