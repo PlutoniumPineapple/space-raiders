@@ -2,9 +2,6 @@
 image_angle = direction
 direction = aim_direction()
 
-
-
-
 hspd = Stat.movespeed*InputX(INPUT_CLUSTER.NAVIGATION);
 vspd = Stat.movespeed*InputY(INPUT_CLUSTER.NAVIGATION);
 

@@ -5,8 +5,8 @@
   "kind":1,
   "name":"Path2",
   "parent":{
-    "name":"Entites",
-    "path":"folders/Entites.yy",
+    "name":"Kirk Boss",
+    "path":"folders/Entites/Enemies/Kirk Boss.yy",
   },
   "points":[
     {"speed":100.0,"x":517.3577,"y":989.50006,},

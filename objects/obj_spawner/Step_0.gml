@@ -26,8 +26,6 @@ if is_firing {
 				bullet.rotation = bullet_rotation;
 			}
 		}
-		
-		// Reset time
-		_time_rate = fire_rate;
+		d_time_rate = fire_rate;
 	}
 }
