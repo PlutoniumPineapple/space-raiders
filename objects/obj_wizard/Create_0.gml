@@ -6,6 +6,10 @@ max_hp = hp
 
 phase_2_time = 0.75
 
+scale = 4
+image_xscale = scale;
+image_yscale = scale;
+
 function random_attack() {
 	s = noone;
 	num = random(120);

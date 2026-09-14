@@ -7,3 +7,16 @@ randomise() // randomizes the seed that GML uses for all of it's randomizers
 if !audio_group_is_loaded(audiogroup_default) {
 	audio_group_load(audiogroup_default);
 }
+
+switch (global.enemy_type) {
+    case 1:
+        instance_create_depth(0, 0, depth, obj_wizard)
+        break;
+	case 2:
+		 instance_create_depth(0, 0, depth, obj_kirk)
+		break;
+    default:
+        // code here
+        break;
+}
+ 

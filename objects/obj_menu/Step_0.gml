@@ -1,6 +1,6 @@
-keyup= keyboard_check_pressed(vk_up);
-keydown= keyboard_check_pressed(vk_down);
-keyselect= keyboard_check_pressed(vk_space);
+keyup =		InputPressed(INPUT_VERB.UP)
+keydown =	InputPressed(INPUT_VERB.DOWN)
+keyselect=	InputPressed(INPUT_VERB.ACCEPT)
 
 if (keyup) position_var--;
 if (keydown) position_var++;

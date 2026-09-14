@@ -8,6 +8,9 @@ max_hp = hp
 phase_2_time = 1.5
 phase_3_time = 1
 
+image_xscale = 2
+image_yscale = 2
+
 function random_attack() {
 	percent = round(random(100)); // I am so sick of fractions:
 	var spawner = noone; // init empty

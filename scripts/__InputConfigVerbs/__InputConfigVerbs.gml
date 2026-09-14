@@ -48,6 +48,8 @@ function __InputConfigVerbs()
 	
 	// Menu Defs
 	InputDefineVerb(INPUT_VERB.FULLSCREEN, "fullscreen", vk_f11, undefined);
+	InputDefineVerb(INPUT_VERB.ACCEPT, "accept", vk_space, gp_face1)
+	InputDefineVerb(INPUT_VERB.CANCEL, "cancel", vk_backspace, gp_face2)
 	
 	// Aimming Defs
 	InputDefineVerb(INPUT_VERB.AIM_NORTH,	"aim north",	undefined, [-gp_axisrv]);
