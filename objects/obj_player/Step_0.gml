@@ -21,3 +21,11 @@ if InputPressed(INPUT_VERB.SHOOT){
 if InputPressed(INPUT_VERB.GAMMA_ATTACK) {
 	spawner = create_spawner(self, 0.1, 5, 20, bullet)
 }
+
+if hp != 2 {
+	alpha = 1
+}
+else {
+	alpha = Approach(alpha, Tween_Cos(0, 1, current_time), 0.1)
+} 
+

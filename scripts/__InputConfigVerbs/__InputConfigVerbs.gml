@@ -50,6 +50,7 @@ function __InputConfigVerbs()
 	InputDefineVerb(INPUT_VERB.FULLSCREEN, "fullscreen", vk_f11, undefined);
 	InputDefineVerb(INPUT_VERB.ACCEPT, "accept", vk_space, gp_face1)
 	InputDefineVerb(INPUT_VERB.CANCEL, "cancel", vk_backspace, gp_face2)
+	InputDefineVerb(INPUT_VERB.PAUSE, "pause", vk_escape, gp_select)
 	
 	// Aimming Defs
 	InputDefineVerb(INPUT_VERB.AIM_NORTH,	"aim north",	undefined, [-gp_axisrv]);

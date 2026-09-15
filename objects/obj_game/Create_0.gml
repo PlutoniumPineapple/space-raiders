@@ -19,4 +19,3 @@ switch (global.enemy_type) {
         // code here
         break;
 }
- 

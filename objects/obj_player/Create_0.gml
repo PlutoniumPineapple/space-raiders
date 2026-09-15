@@ -10,7 +10,7 @@ image_yscale /= 2
 
 hg_time = 60;
 
-
+alpha = 1;
 
 Stat = {
 	movespeed : 5

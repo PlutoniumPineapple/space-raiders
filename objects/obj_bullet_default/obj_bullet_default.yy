@@ -42,5 +42,8 @@
     "path":"sprites/spr_bullet_beta/spr_bullet_beta.yy",
   },
   "spriteMaskId":null,
+  "tags":[
+    "pauseable",
+  ],
   "visible":true,
 }

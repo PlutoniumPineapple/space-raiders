@@ -35,5 +35,8 @@
     "path":"sprites/spr_heal/spr_heal.yy",
   },
   "spriteMaskId":null,
+  "tags":[
+    "pauseable",
+  ],
   "visible":true,
 }

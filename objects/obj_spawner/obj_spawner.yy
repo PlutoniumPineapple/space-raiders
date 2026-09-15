@@ -54,5 +54,8 @@
     "path":"sprites/spr_spawner/spr_spawner.yy",
   },
   "spriteMaskId":null,
+  "tags":[
+    "pauseable",
+  ],
   "visible":false,
 }
