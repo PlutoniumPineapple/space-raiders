@@ -1,10 +1,34 @@
 is_paused = false;
 menu = noone;
 menu_height = 0;
+enum P_MENU {MAIN,SETTINGS}
 
 //if not audio_group_is_loaded(audiogroup_sfx) {
 //	audio_group_load(audiogroup_sfx)
 //}
+
+
+//menu controls
+keyup=false
+keydown=false
+keyselect=false
+
+//selector var
+position_var=0;
+pmenu_state=P_MENU.MAIN;
+
+//menu Import
+//menu scaler
+halfwidth = room_width/2
+halfheight= room_height/2
+
+horizontal_margin=180;
+vertical_margin=100;
+spacing=50;
+
+pausemenuoptions[0] = "Return to Menu";
+pausemenuoptions[1] = "Reset";
+pausemenuoptions[2] = "Settings";
 
 function pause_game() 
 {

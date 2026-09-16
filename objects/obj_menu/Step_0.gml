@@ -17,7 +17,7 @@ switch(menu_state)
 			if (position_var > 2) position_var=0
 		break;
 	case MENU.SETTINGS:
-			if (position_var < 0) position_var=1
-			if (position_var > 1) position_var=0
+			if (position_var < 0) position_var=5
+			if (position_var > 5) position_var=0
 		break;
 }

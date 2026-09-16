@@ -69,7 +69,11 @@ switch (menu_state){
 			switch(position_var)
 			{
 				case 0: break;
-				case 1: 
+				case 1: break;
+				case 2: break;
+				case 3: break;
+				case 4: break;
+				case 5: 
 					position_var = 0;
 					menu_state = MENU.MAIN
 					break;
