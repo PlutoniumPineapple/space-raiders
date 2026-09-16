@@ -3,13 +3,14 @@
   "%Name":"obj_star",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
   "name":"obj_star",
   "overriddenProperties":[],
   "parent":{
     "name":"Particles",
-    "path":"folders/Particles.yy",
+    "path":"folders/Effects/Particles.yy",
   },
   "parentObjectId":null,
   "persistent":false,

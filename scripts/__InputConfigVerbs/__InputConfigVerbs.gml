@@ -18,7 +18,7 @@ function __InputConfigVerbs()
 		
 		// Combat
         SHOOT,
-		GAMMA_ATTACK,
+		SPECIAL,
 		
 		
 		AIM_NORTH,
@@ -44,7 +44,7 @@ function __InputConfigVerbs()
 	
 	// Attack Defs
 	InputDefineVerb(INPUT_VERB.SHOOT, "shoot", mb_left, gp_shoulderr);
-	InputDefineVerb(INPUT_VERB.GAMMA_ATTACK, "gamma attack", mb_middle, gp_shoulderrb);
+	InputDefineVerb(INPUT_VERB.SPECIAL, "special attack", mb_middle, gp_shoulderrb);
 	
 	// Menu Defs
 	InputDefineVerb(INPUT_VERB.FULLSCREEN, "fullscreen", vk_f11, undefined);

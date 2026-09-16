@@ -4,7 +4,7 @@
   "name":"sh_color_overlay",
   "parent":{
     "name":"Easy Overlay",
-    "path":"folders/Shaders/Easy Overlay.yy",
+    "path":"folders/Scripts/Easy Overlay/Easy Overlay.yy",
   },
   "resourceType":"GMShader",
   "resourceVersion":"2.0",

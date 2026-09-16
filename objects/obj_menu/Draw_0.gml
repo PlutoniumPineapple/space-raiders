@@ -103,13 +103,13 @@ switch (menu_state){
 			{
 				case 0: 
 					global.enemy_type=1
-					room_goto(Room1)
+					room_goto(rm_game)
 					
 					break;
 					//part where we can enable/disable entities from Room1 and transition to Room1
 				case 1: 
 					global.enemy_type=2
-					room_goto(Room1)
+					room_goto(rm_game)
 					break;
 				case 2: 
 					position_var = 0;

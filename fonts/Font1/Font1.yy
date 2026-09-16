@@ -120,7 +120,7 @@
   "name":"Font1",
   "parent":{
     "name":"menu_sys",
-    "path":"folders/menu_sys.yy",
+    "path":"folders/Managers and Menus/menu_sys.yy",
   },
   "pointRounding":0,
   "ranges":[

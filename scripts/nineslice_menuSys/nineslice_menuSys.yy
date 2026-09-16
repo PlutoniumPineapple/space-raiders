@@ -6,7 +6,7 @@
   "name":"nineslice_menuSys",
   "parent":{
     "name":"menu_sys",
-    "path":"folders/menu_sys.yy",
+    "path":"folders/Managers and Menus/menu_sys.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

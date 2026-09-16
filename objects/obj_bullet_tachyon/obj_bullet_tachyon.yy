@@ -12,8 +12,8 @@
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_bullet_default","path":"objects/obj_bullet_default/obj_bullet_default.yy",},"propertyId":{"name":"acceleration","path":"objects/obj_bullet_default/obj_bullet_default.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"0.5",},
   ],
   "parent":{
-    "name":"Bullets",
-    "path":"folders/Entites/Bullets.yy",
+    "name":"Objects",
+    "path":"folders/Projectiles/Bullets/Objects.yy",
   },
   "parentObjectId":{
     "name":"obj_bullet_default",

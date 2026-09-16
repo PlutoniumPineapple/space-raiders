@@ -1,4 +1,5 @@
 /// @desc Update
+
 image_angle = direction
 direction = aim_direction()
 
@@ -18,8 +19,9 @@ if InputPressed(INPUT_VERB.SHOOT){
 	spawner2.y = y - lengthdir_y(-offset, direction - angle)
 }
 
-if InputPressed(INPUT_VERB.GAMMA_ATTACK) {
-	spawner = create_spawner(self, 0.1, 5, 20, bullet)
+if InputPressed(INPUT_VERB.SPECIAL) {
+	spawner = create_beam_spawner(self, 5, 5, obj_player_beam)
+	spawner.follow_owner = true;
 }
 
 if hp != 2 {

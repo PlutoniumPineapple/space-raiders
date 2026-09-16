@@ -11,10 +11,10 @@
   "overriddenProperties":[],
   "parent":{
     "name":"Pause Objects",
-    "path":"folders/Pause Objects.yy",
+    "path":"folders/Managers and Menus/Pause Objects.yy",
   },
   "parentObjectId":null,
-  "persistent":false,
+  "persistent":true,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
   "physicsFriction":0.2,

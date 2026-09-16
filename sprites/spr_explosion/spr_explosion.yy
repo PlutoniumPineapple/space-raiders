@@ -35,8 +35,8 @@
   "nineSlice":null,
   "origin":4,
   "parent":{
-    "name":"Sprite",
-    "path":"folders/Entites/Bullets/Sprite.yy",
+    "name":"Sprites",
+    "path":"folders/Projectiles/Bullets/Sprites.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

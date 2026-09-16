@@ -1,9 +1,9 @@
 {
   "$GMScript":"v1",
-  "%Name":"is_not_bullet",
+  "%Name":"is_not_projectile",
   "isCompatibility":false,
   "isDnD":false,
-  "name":"is_not_bullet",
+  "name":"is_not_projectile",
   "parent":{
     "name":"Scripts",
     "path":"folders/Scripts.yy",

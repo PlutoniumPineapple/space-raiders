@@ -9,8 +9,8 @@
   "name":"obj_bullet_default",
   "overriddenProperties":[],
   "parent":{
-    "name":"Bullets",
-    "path":"folders/Entites/Bullets.yy",
+    "name":"Objects",
+    "path":"folders/Projectiles/Bullets/Objects.yy",
   },
   "parentObjectId":null,
   "persistent":false,

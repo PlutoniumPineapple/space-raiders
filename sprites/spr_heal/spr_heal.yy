@@ -26,7 +26,7 @@
   "origin":4,
   "parent":{
     "name":"Heal",
-    "path":"folders/Entites/Heal.yy",
+    "path":"folders/Projectiles/Heal.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

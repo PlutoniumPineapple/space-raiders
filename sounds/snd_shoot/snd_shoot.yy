@@ -14,8 +14,8 @@
   "exportDir":"",
   "name":"snd_shoot",
   "parent":{
-    "name":"space raiders",
-    "path":"space raiders.yyp",
+    "name":"Sounds",
+    "path":"folders/Effects/Sounds.yy",
   },
   "preload":false,
   "resourceType":"GMSound",

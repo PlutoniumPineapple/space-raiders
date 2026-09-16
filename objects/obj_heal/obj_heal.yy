@@ -10,7 +10,7 @@
   "overriddenProperties":[],
   "parent":{
     "name":"Heal",
-    "path":"folders/Entites/Heal.yy",
+    "path":"folders/Projectiles/Heal.yy",
   },
   "parentObjectId":null,
   "persistent":false,

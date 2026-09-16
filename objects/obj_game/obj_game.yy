@@ -10,8 +10,8 @@
   "name":"obj_game",
   "overriddenProperties":[],
   "parent":{
-    "name":"space raiders",
-    "path":"space raiders.yyp",
+    "name":"Managers and Menus",
+    "path":"folders/Managers and Menus.yy",
   },
   "parentObjectId":null,
   "persistent":false,

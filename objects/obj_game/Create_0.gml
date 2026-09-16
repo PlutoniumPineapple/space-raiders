@@ -19,3 +19,7 @@ switch (global.enemy_type) {
         // code here
         break;
 }
+pause_exists()
+
+obj_pause_screen.unpause_game();
+

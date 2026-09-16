@@ -13,8 +13,8 @@
   "name":"obj_bigboi_bullet",
   "overriddenProperties":[],
   "parent":{
-    "name":"Bullets",
-    "path":"folders/Entites/Bullets.yy",
+    "name":"Objects",
+    "path":"folders/Projectiles/Bullets/Objects.yy",
   },
   "parentObjectId":{
     "name":"obj_bullet_default",

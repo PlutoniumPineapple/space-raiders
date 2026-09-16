@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"create_beam_spawner",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"create_beam_spawner",
+  "parent":{
+    "name":"Scripts",
+    "path":"folders/Scripts.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

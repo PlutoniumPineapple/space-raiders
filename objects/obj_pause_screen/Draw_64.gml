@@ -42,11 +42,13 @@ switch (pmenu_state){
 			switch(position_var)
 			{
 				case 0: 
-					global.enemy_type=0
-					is_paused = false
-					room_goto(menu_25th)
+					global.enemy_type = undefined
+					unpause_game();
+					room_goto(rm_menu)
 					break;
 				case 1: 
+					unpause_game();
+					room_restart();
 					break;
 				case 2: 
 					position_var = 0;

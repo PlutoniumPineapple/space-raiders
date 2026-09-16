@@ -44,8 +44,8 @@
   },
   "origin":4,
   "parent":{
-    "name":"Entites",
-    "path":"folders/Entites.yy",
+    "name":"Effects",
+    "path":"folders/Effects.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

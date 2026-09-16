@@ -35,7 +35,7 @@
   "origin":4,
   "parent":{
     "name":"Particles",
-    "path":"folders/Particles.yy",
+    "path":"folders/Effects/Particles.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

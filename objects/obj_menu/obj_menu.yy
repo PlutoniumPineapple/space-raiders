@@ -11,7 +11,7 @@
   "overriddenProperties":[],
   "parent":{
     "name":"menu_sys",
-    "path":"folders/menu_sys.yy",
+    "path":"folders/Managers and Menus/menu_sys.yy",
   },
   "parentObjectId":null,
   "persistent":false,

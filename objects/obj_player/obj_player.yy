@@ -47,5 +47,8 @@
     "path":"sprites/ship_prototype1/ship_prototype1.yy",
   },
   "spriteMaskId":null,
+  "tags":[
+    "pauseable",
+  ],
   "visible":true,
 }
